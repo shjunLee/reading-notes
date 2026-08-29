@@ -194,5 +194,36 @@
       阿玉王 · 读书笔记 · 托管于 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>
     </div>
   </footer>
+
+  <script>
+  /* 书架卡片与「已读完」统计从 books/manifest.json 动态生成。
+     本地以 file:// 双击打开时 fetch 会失败，此时保留下方手写 fallback 卡片，不影响查看。 */
+  (function(){
+    var booksEl = document.querySelector('.books');
+    var doneEl  = document.querySelector('.stats .st .n'); // 第一个 .st 即「已读完」
+    function card(b){
+      var tags = (b.tags||[]).map(function(t){ return '<span>'+t+'</span>'; }).join('');
+      return '<a class="book" href="books/'+b.slug+'.html">'
+        + '<div class="emoji">'+(b.emoji||'📖')+'</div>'
+        + '<h3>'+b.title+'</h3>'
+        + '<div class="en">'+b.en+' · '+b.author+'</div>'
+        + '<p class="desc">'+b.desc+'</p>'
+        + '<div class="meta">'+tags+'</div>'
+        + '<div class="go">阅读笔记</div></a>';
+    }
+    function ghost(){
+      return '<div class="book ghost" aria-hidden="true"><div class="plus">＋</div>'
+        + '<p>下一本书，正在路上……</p></div>';
+    }
+    fetch('books/manifest.json', {cache:'no-cache'})
+      .then(function(r){ return r.json(); })
+      .then(function(list){
+        if(!Array.isArray(list) || !list.length) return;
+        if(booksEl) booksEl.innerHTML = list.map(card).join('') + ghost();
+        if(doneEl)  doneEl.textContent = list.length;
+      })
+      .catch(function(){ /* fetch 失败：保留手写 fallback，离线也能看 */ });
+  })();
+  </script>
 </body>
 </html>
