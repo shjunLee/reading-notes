@@ -4,13 +4,13 @@
 
 ## 在线阅读
 
-**👉 https://<USERNAME>.github.io/reading-notes/**
+**👉 https://shjunlee.github.io/reading-notes/**
 
 ## 书目
 
 | 书名 | 作者 | 笔记 | 链接 |
 |---|---|---|---|
-| 《思考，快与慢》 | 丹尼尔·卡尼曼 | 38 条（3 划线 + 35 想法） | [阅读笔记](books/thinking-fast-and-slow.html) |
+| 《思考，快与慢》 | 丹尼尔·卡尼曼 | 38 条（3 划线 + 35 想法） | [阅读笔记](https://shjunlee.github.io/reading-notes/books/thinking-fast-and-slow.html) |
 
 ## 结构
 
