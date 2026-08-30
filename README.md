@@ -6,11 +6,19 @@
 
 **👉 https://shjunlee.github.io/reading-notes/**
 
-## 书目
+## 书目（7 本 · 共 307 条笔记）
 
 | 书名 | 作者 | 笔记 | 链接 |
 |---|---|---|---|
-| 《思考，快与慢》 | 丹尼尔·卡尼曼 | 38 条（3 划线 + 35 想法） | [阅读笔记](https://shjunlee.github.io/reading-notes/books/thinking-fast-and-slow.html) |
+| 🧠 《思考，快与慢》 | 丹尼尔·卡尼曼 | 34 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/thinking-fast-and-slow.html) |
+| 🐒 《社会性动物》 | 艾略特·阿伦森 | 65 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/social-animal.html) |
+| 🦢 《黑天鹅》 | 纳西姆·尼古拉斯·塔勒布 | 17 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/black-swan.html) |
+| 🔥 《反脆弱》 | 纳西姆·尼古拉斯·塔勒布 | 24 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/antifragile.html) |
+| 🕰️ 《吉姆·柯林斯成就卓越系列》 | 吉姆·柯林斯 | 42 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/jim-collins.html) |
+| 🦃 《影响力（全新升级版）》 | 罗伯特·西奥迪尼 | 33 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/influence.html) |
+| 🧮 《聪明的投资者（第 4 版，注疏点评版）》 | 本杰明·格雷厄姆 / 贾森·兹威格 | 92 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/intelligent-investor.html) |
+
+每本书的页面板块顺序：**书籍信息 → 我的总评 → 一句话总览 → 核心框架 → 概念卡片 → 全书章节脉络 → 金句 → 全书热门划线 → 启发 → 我的划线与想法**。
 
 ## 结构
 
@@ -18,7 +26,13 @@
 ├── index.html                          # 首页 · 书架导航（卡片与「已读完」统计由 JS 动态生成）
 ├── books/
 │   ├── manifest.json                   # 书目清单：首页统计与卡片的数据源
-│   └── thinking-fast-and-slow.html     # 《思考，快与慢》
+│   ├── thinking-fast-and-slow.html     # 《思考，快与慢》
+│   ├── social-animal.html              # 《社会性动物》
+│   ├── black-swan.html                 # 《黑天鹅》
+│   ├── antifragile.html                # 《反脆弱》
+│   ├── jim-collins.html                # 《吉姆·柯林斯成就卓越系列》
+│   ├── influence.html                  # 《影响力（全新升级版）》
+│   └── intelligent-investor.html       # 《聪明的投资者（第 4 版，注疏点评版）》
 └── README.md
 ```
 
@@ -29,7 +43,7 @@
 1. 把新书笔记页（自包含 HTML）放进 `books/`，文件名用英文 slug，例如 `books/xxx.html`
 2. 在 `books/manifest.json` 数组里加一条：
    `{"slug":"xxx","emoji":"📘","title":"书名","author":"作者","en":"英文名","desc":"一句话简介","notes":N,"tags":["标签1","标签2"]}`
-3. 提交并推送：`git add -A && git commit -m "新增《xxx》" && git push`
+3. 提交并推送（按需）：`git add books/xxx.html books/manifest.json && git commit -m "新增《xxx》"` —— 推送到远端前请先确认意图。
 
 首页的书架卡片和「已读完」统计会**自动**更新，无需手动改数字。
 
@@ -38,5 +52,4 @@
 书页中的「我的划线与想法」部分来自我在微信读书中的真实批注。
 
 ---
-
 *持续更新中 · 下一本书正在路上*
