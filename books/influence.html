@@ -886,7 +886,7 @@ footer .foot-orn{display:block;font-size:14px;letter-spacing:.5em;color:var(--ac
   // 评分星标
   Array.prototype.forEach.call(document.querySelectorAll('.fact'),function(f){
     var k=f.querySelector('.k'),v=f.querySelector('.v');
-    if(k&&v&&k.textContent.indexOf('评分')>=0&&!v.querySelector('.stars')){
+    if(k&&v&&k.textContent.trim()==='评分'&&!v.querySelector('.stars')){
       v.innerHTML='<span class="stars">★★★★☆</span>8.89 <span style="color:var(--ink-faint);font-weight:400;font-size:12.5px">（7301 人）</span>';
     }
   });
