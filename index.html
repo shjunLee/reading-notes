@@ -177,8 +177,8 @@
       <p class="sub">读一本，留一本书的痕迹 —— 认知、决策与成长的深度阅读记录</p>
       <div class="rule"></div>
       <div class="stats">
-        <div class="st"><div class="n">1</div><div class="l">已读完</div></div>
-        <div class="st"><div class="n">34</div><div class="l">笔记条数</div></div>
+        <div class="st"><div class="n">2</div><div class="l">已读完</div></div>
+        <div class="st"><div class="n">99</div><div class="l">笔记条数</div></div>
         <div class="st"><div class="n">∞</div><div class="l">待读清单</div></div>
       </div>
     </header>
@@ -197,6 +197,17 @@
           <p class="desc">系统 1 凭直觉抢答，系统 2 懒得验算——理解双系统与认知偏误，才能看清自己是如何被自己的大脑骗的。</p>
           <div class="meta">
             <span>34 条笔记</span><span>认知心理学</span><span>★★★★☆ 8.4</span>
+          </div>
+          <div class="go">阅读笔记</div>
+        </a>
+
+        <a class="book" href="books/social-animal.html">
+          <div class="emoji">🐒</div>
+          <h3>社会性动物</h3>
+          <div class="en">The Social Animal · 艾略特·阿伦森</div>
+          <p class="desc">我们最执着的，是相信自己善良、聪慧、明事理——而恰恰是这份执着，最常把我们推向既不善良也不聪慧的结局。</p>
+          <div class="meta">
+            <span>65 条笔记</span><span>社会心理学</span><span>★★★★☆ 8.34</span>
           </div>
           <div class="go">阅读笔记</div>
         </a>
@@ -222,7 +233,9 @@
      本地以 file:// 双击打开时 fetch 会失败，此时保留下方手写 fallback 卡片，不影响查看。 */
   (function(){
     var booksEl = document.querySelector('.books');
-    var doneEl  = document.querySelector('.stats .st .n'); // 第一个 .st 即「已读完」
+    var stN     = document.querySelectorAll('.stats .st .n');
+    var doneEl  = stN[0];  // 第一个 .st = 已读完
+    var noteEl  = stN[1];  // 第二个 .st = 笔记条数（按 manifest 汇总，不硬编码）
     function card(b){
       var tags = (b.tags||[]).map(function(t){ return '<span>'+t+'</span>'; }).join('');
       return '<a class="book" href="books/'+b.slug+'.html">'
@@ -243,6 +256,8 @@
         if(!Array.isArray(list) || !list.length) return;
         if(booksEl) booksEl.innerHTML = list.map(card).join('') + ghost();
         if(doneEl)  doneEl.textContent = list.length;
+        var totalNotes = list.reduce(function(s,b){ return s + (b.notes||0); }, 0);
+        if(noteEl)  noteEl.textContent = totalNotes;
       })
       .catch(function(){ /* fetch 失败：保留手写 fallback，离线也能看 */ });
   })();
