@@ -6,7 +6,7 @@
 
 **👉 https://shjunlee.github.io/reading-notes/**
 
-## 书目（14 本 · 共 565 条笔记）
+## 书目（20 本 · 共 852 条笔记）
 
 | 书名 | 作者 | 笔记 | 链接 |
 |---|---|---|---|
@@ -24,6 +24,12 @@
 | 🗺️ 《枪炮、病菌与钢铁》 | 贾雷德·戴蒙德 | 9 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/guns-germs-and-steel.html) |
 | 🐟 《小岛经济学》 | 彼得·D.希夫 / 安德鲁·J.希夫 | 23 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/island-economics.html) |
 | 🔬 《复杂生命的起源》 | 尼克·莱恩 | 33 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/vital-question.html) |
+| 📊 《一本书读懂财报》 | 肖星 | 107 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/one-book-financial-statements.html) |
+| 🔍 《张新民教你读财报》 | 张新民 | 59 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/zhang-xinmin-financial-statements.html) |
+| 💎 《估值的艺术：110个解读案例》 | 尼古拉斯·斯密德林 | 48 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/art-of-valuation.html) |
+| 🧸 《因为独特》 | 李翔 | 38 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/because-unique.html) |
+| 🎲 《随机漫步的傻瓜》 | 纳西姆·塔勒布 | 18 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/fooled-by-randomness.html) |
+| ⚖️ 《非对称风险》 | 纳西姆·塔勒布 | 17 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/skin-in-the-game.html) |
 
 每本书的页面板块顺序：**书籍信息 → 我的总评 → 一句话总览 → 核心框架 → 概念卡片 → 全书章节脉络 → 金句 → 全书热门划线 → 启发 → 我的划线与想法**。
 
@@ -46,7 +52,13 @@
 │   ├── economics-way-of-thinking.html  # 《经济学的思维方式：第13版》
 │   ├── guns-germs-and-steel.html       # 《枪炮、病菌与钢铁》
 │   ├── island-economics.html           # 《小岛经济学》
-│   └── vital-question.html             # 《复杂生命的起源》
+│   ├── vital-question.html             # 《复杂生命的起源》
+│   ├── one-book-financial-statements.html   # 《一本书读懂财报》
+│   ├── zhang-xinmin-financial-statements.html # 《张新民教你读财报》
+│   ├── art-of-valuation.html           # 《估值的艺术：110个解读案例》
+│   ├── because-unique.html             # 《因为独特》
+│   ├── fooled-by-randomness.html       # 《随机漫步的傻瓜》
+│   └── skin-in-the-game.html           # 《非对称风险》
 └── README.md
 ```
 
