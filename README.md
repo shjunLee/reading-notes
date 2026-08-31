@@ -6,7 +6,7 @@
 
 **👉 https://shjunlee.github.io/reading-notes/**
 
-## 书目（12 本 · 共 509 条笔记）
+## 书目（14 本 · 共 565 条笔记）
 
 | 书名 | 作者 | 笔记 | 链接 |
 |---|---|---|---|
@@ -22,6 +22,8 @@
 | 🧭 《价值投资：从格雷厄姆到巴菲特（第2版）》 | 布鲁斯·C. 格林沃尔德 等 | 54 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/value-investing.html) |
 | 🎨 《经济学的思维方式：第13版》 | 保罗·海恩 / 彼得·勃特克 / 大卫·普雷契特科 | 65 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/economics-way-of-thinking.html) |
 | 🗺️ 《枪炮、病菌与钢铁》 | 贾雷德·戴蒙德 | 9 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/guns-germs-and-steel.html) |
+| 🐟 《小岛经济学》 | 彼得·D.希夫 / 安德鲁·J.希夫 | 23 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/island-economics.html) |
+| 🔬 《复杂生命的起源》 | 尼克·莱恩 | 33 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/vital-question.html) |
 
 每本书的页面板块顺序：**书籍信息 → 我的总评 → 一句话总览 → 核心框架 → 概念卡片 → 全书章节脉络 → 金句 → 全书热门划线 → 启发 → 我的划线与想法**。
 
@@ -42,7 +44,9 @@
 │   ├── competitive-advantage.html      # 《竞争优势：透视企业护城河》
 │   ├── value-investing.html            # 《价值投资：从格雷厄姆到巴菲特（第2版）》
 │   ├── economics-way-of-thinking.html  # 《经济学的思维方式：第13版》
-│   └── guns-germs-and-steel.html       # 《枪炮、病菌与钢铁》
+│   ├── guns-germs-and-steel.html       # 《枪炮、病菌与钢铁》
+│   ├── island-economics.html           # 《小岛经济学》
+│   └── vital-question.html             # 《复杂生命的起源》
 └── README.md
 ```
 
