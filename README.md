@@ -6,7 +6,7 @@
 
 **👉 https://shjunlee.github.io/reading-notes/**
 
-## 书目（7 本 · 共 307 条笔记）
+## 书目（8 本 · 共 345 条笔记）
 
 | 书名 | 作者 | 笔记 | 链接 |
 |---|---|---|---|
@@ -17,6 +17,7 @@
 | 🕰️ 《吉姆·柯林斯成就卓越系列》 | 吉姆·柯林斯 | 42 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/jim-collins.html) |
 | 🦃 《影响力（全新升级版）》 | 罗伯特·西奥迪尼 | 33 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/influence.html) |
 | 🧮 《聪明的投资者（第 4 版，注疏点评版）》 | 本杰明·格雷厄姆 / 贾森·兹威格 | 92 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/intelligent-investor.html) |
+| ⚖️ 《证券分析（全新升级版）》 | 本杰明·格雷厄姆 / 戴维·多德 | 38 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/security-analysis.html) |
 
 每本书的页面板块顺序：**书籍信息 → 我的总评 → 一句话总览 → 核心框架 → 概念卡片 → 全书章节脉络 → 金句 → 全书热门划线 → 启发 → 我的划线与想法**。
 
@@ -32,7 +33,8 @@
 │   ├── antifragile.html                # 《反脆弱》
 │   ├── jim-collins.html                # 《吉姆·柯林斯成就卓越系列》
 │   ├── influence.html                  # 《影响力（全新升级版）》
-│   └── intelligent-investor.html       # 《聪明的投资者（第 4 版，注疏点评版）》
+│   ├── intelligent-investor.html       # 《聪明的投资者（第 4 版，注疏点评版）》
+│   └── security-analysis.html          # 《证券分析（全新升级版）》
 └── README.md
 ```
 
