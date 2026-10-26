@@ -33,6 +33,7 @@
 | 🐷 《金钱心理学：财富、人性和幸福的永恒真相》 | 摩根·豪泽尔 | 18 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/psychology-of-money.html) |
 | 📐 《财务报表分析与股票估值（第2版）》 | 郭永清 | 29 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/financial-statements-valuation.html) |
 | 🪞 《行为投资学手册：投资者如何避免成为自己最大的敌人》 | 詹姆斯·蒙蒂尔 | 21 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/behavioural-investing-handbook.html) |
+| 🎭 《津巴多普通心理学（第8版）》 | 菲利普·津巴多 / 罗伯特·约翰逊 / 薇薇安·麦卡恩 | 141 条 | [阅读笔记](https://shjunlee.github.io/reading-notes/books/zimbardo-psychology.html) |
 
 每本书的页面板块顺序：**书籍信息 → 我的总评 → 一句话总览 → 核心框架 → 概念卡片 → 全书章节脉络 → 金句 → 全书热门划线 → 启发 → 我的划线与想法**。
 
@@ -65,6 +66,7 @@
 │   ├── psychology-of-money.html        # 《金钱心理学：财富、人性和幸福的永恒真相》
 │   ├── financial-statements-valuation.html # 《财务报表分析与股票估值（第2版）》
 │   ├── behavioural-investing-handbook.html # 《行为投资学手册》
+│   ├── zimbardo-psychology.html        # 《津巴多普通心理学（第8版）》
 └── README.md
 ```
 
